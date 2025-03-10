@@ -3,7 +3,7 @@ import pandas as pd
 
 #a CSV that has all your tickers
 ticker_df = pd.read_csv("tickers.csv") 
-all_tickers = ticker_df["Symbol"].tolist()  #or adjust column name as needed
+all_tickers = ticker_df["Ticker"].tolist()  #or adjust column name as needed
 
 #download data for each ticker 
 for ticker in all_tickers:
