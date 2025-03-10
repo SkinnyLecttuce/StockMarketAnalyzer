@@ -13,5 +13,8 @@ python download_stocks_etfs.py
 
 Once the stocks are downloaded, extract the 2 new folders to the "stocks" folder.
 
-Run stoink_analyzer.py
+Run:
+```bash
+python stoink_analyzer.py
+```
 
