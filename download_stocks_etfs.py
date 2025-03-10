@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 
 #a CSV that has all your tickers
-ticker_df = pd.read_csv("stocks/tickers.csv") 
+ticker_df = pd.read_csv("stocks//tickers.csv") 
 all_tickers = ticker_df["Ticker"].tolist()  #or adjust column name as needed
 
 #download data for each ticker 
